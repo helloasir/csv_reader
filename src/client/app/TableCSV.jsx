@@ -91,7 +91,7 @@ class TableCSV extends React.Component {
 			rowsCount={this.state.records.length}
 			rowHeight={50}
 			headerHeight={50}
-			width={screen.availWidth}
+			width={screen.availWidth-100}
 			height={screen.availHeight-100}
 			isColumnResizing={false}
 			onColumnResizeEndCallback={this._onColumnResizeEndCallback}

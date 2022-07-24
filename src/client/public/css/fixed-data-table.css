@@ -131,7 +131,7 @@
   border-right-width: 1px;
   box-sizing: border-box;
   position: absolute;
-  z-index: 10;
+  z-index: 3;
 }
 
 body[dir="rtl"] .fixedDataTableColumnResizerLineLayout_main {

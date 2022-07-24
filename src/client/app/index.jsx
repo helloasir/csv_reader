@@ -34,7 +34,7 @@ class Index extends React.Component {
 		return (
 			<div>
 				<div className='container'>
-					<h1 className="page-header">Reactive CSV</h1>
+					<h1 className="page-header">CSV Reader</h1>
 					<InputCSV onUpload={this.handleUpload}/>
 					<FileList />
 				</div>

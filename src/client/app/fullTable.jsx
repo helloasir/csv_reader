@@ -19,8 +19,8 @@ class FullTable extends React.Component {
     render() {
         if (this.state) {
             return (
-                <div>
-                <span>{__csvname} ({this.state.records.length} lines)</span>
+                <div >
+                <span >{__csvname} ({this.state.records.length} lines)</span>
 					<TableCSV colNames = {this.state.colNames} records={this.state.records}/>
 				</div>
             );
